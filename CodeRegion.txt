@@ -1,0 +1,32 @@
+		#region
+		#endregion
+		
+		#region Private Constants
+		#endregion
+
+		#region Private Data
+		#endregion
+
+		#region Constructor
+		#endregion
+
+		#region Event Declarations
+		#endregion
+
+		#region Properties
+		#endregion
+
+		#region Public Methods
+		#endregion
+
+		#region Protected Methods
+		#endregion
+
+		#region Internal Methods
+		#endregion
+
+		#region Private Methods
+		#endregion
+
+		#region Interface Implementation Or Base Class Overrides
+		#endregion

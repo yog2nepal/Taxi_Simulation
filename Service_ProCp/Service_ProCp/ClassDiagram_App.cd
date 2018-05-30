@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Service_ProCp.BusinessLogic.DataHelper">
+    <Position X="6.75" Y="13.5" Width="2.75" />
+    <AssociationLine Name="NetworkStation" Type="Service_ProCp.BusinessLogic.NetworkStation" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.125" Y="13.5" />
+        <Point X="8.125" Y="12.438" />
+        <Point X="11.75" Y="12.438" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAgAAAAAAEAQAAAAAAAgAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\DataHelper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NetworkStation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Service_ProCp.BusinessLogic.NetworkStation">
+    <Position X="11.75" Y="6.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>CBlgAIgQAAAQAACAAQAAAAQBQZAAAACAQIAACABiAQA=</HashCode>
+      <FileName>BusinessLogic\NetworkStation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainView" />
+      <Property Name="ControlStation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Service_ProCp.BusinessLogic.Statistics">
+    <Position X="3.75" Y="13.5" Width="2.25" />
+    <AssociationLine Name="NetworkStation" Type="Service_ProCp.BusinessLogic.NetworkStation" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="13.5" />
+        <Point X="5" Y="11.25" />
+        <Point X="11.75" Y="11.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\Statistics.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NetworkStation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Service_ProCp.Models.Car">
+    <Position X="1.25" Y="5" Width="3.25" />
+    <AssociationLine Name="NetworkStation" Type="Service_ProCp.BusinessLogic.NetworkStation" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="9.938" />
+        <Point X="11.75" Y="9.938" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAECAAABAIQAgRAAIIIBBL0AgaEAABAAARgAgAgAAAA=</HashCode>
+      <FileName>Models\Car.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NetworkStation" />
+      <Property Name="MovementType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Service_ProCp.Models.Hotspot">
+    <Position X="6" Y="4.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAQAgIAEAAIAAAAAgqAAABAAAAFACIAAAAA=</HashCode>
+      <FileName>Models\Hotspot.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NetworkStation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Service_ProCp.Models.Order">
+    <Position X="12.25" Y="0.5" Width="3.25" />
+    <NestedTypes>
+      <Delegate Name="Service_ProCp.Models.Order.requestStatsHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Order.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAFEAAABBACAEAgAAAAAAAIQgAACAgAAABAAAhAAAAA=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NetworkStation" />
+      <Property Name="Addresses" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Service_ProCp.Models.Road">
+    <Position X="11.25" Y="14.5" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>IAAACAUAAAAAAAEAAEAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Road.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NetworkStation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Service_ProCp.Views.ControlStation.ControlStation">
+    <Position X="18" Y="9.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AABAACAAACACCBIAAoCASgCCAAAYAEAAAGAjASIAIAA=</HashCode>
+      <FileName>Views\ControlStation\ControlStationView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Views.Main.MainView">
+    <Position X="23.25" Y="3.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCMAWAgDACABAESQCgICAKFAAcEBiAgEkAAQJAEAA=</HashCode>
+      <FileName>Views\Main\MainView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Service_ProCp.Models.MovementType">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABCACAAAAAAAI=</HashCode>
+      <FileName>Models\MovementType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Service_ProCp.Models.Addresses">
+    <Position X="17.25" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>IAgAQAAAAAACIAAAAQAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

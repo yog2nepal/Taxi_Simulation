@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Service_ProCp.Car">
+    <Position X="6.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAECAAABAAAAABAAAIABAQAAAQEAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Address">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAA=</HashCode>
+      <FileName>Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.DateTime">
+    <Position X="6.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAABAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAA=</HashCode>
+      <FileName>DateTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Hotspot">
+    <Position X="9.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAAAAAAAAAAIAABAIAAAAAAAAAAAAAAAAACgAAAAA=</HashCode>
+      <FileName>Hotspot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Order">
+    <Position X="3.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAABEAQAEAAAAAAAAAAAAAAAggAAEAAQAAAAAAA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Statistics">
+    <Position X="0.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Car_Passengers">
+    <Position X="10" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Car_Passengers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Drivers">
+    <Position X="10" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAAEAAABAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Drivers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Network_Station">
+    <Position X="13" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAAgCAAAAAACAAQAAAAAASBAAAACAAAAAAABCAAA=</HashCode>
+      <FileName>Network_Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Queue">
+    <Position X="0.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Queue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Station">
+    <Position X="3.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAQCAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.Form1">
+    <Position X="16.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAgCAAABAACQCAAAACFAAQAACAAAgAAQNAEAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_ProCp.ControlStation">
+    <Position X="19.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABIAAACACgCCAAAYAAAAACAhAQIAAAA=</HashCode>
+      <FileName>Control Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Service_ProCp.Status">
+    <Position X="13" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAIAAAAAAAAAAAAAAAFAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
